@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portafolio</title>
+<link rel="icon" type='image/png' href="img/image-removebg-preview (1).png">
+<style>
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2E302B;
+        position: relative;
+    }
+    
+    .name .imagen {
+        position: absolute;
+        margin-top: 5px;
+        right: 5%;
+        width: 207px;
+        height: 207px;
+        border-radius: 100%;
+        transform: skewY(5deg);
+        overflow: hidden;
+    }
+
+    .name .imagen img {
+        width: 220px;
+        height: 280px;
+    }
+
+    .name .title {
+        margin-top: 2%;
+        position: relative;
+    }
+    h1, legend{
+        color: #C74F41;
+    }
+    p {
+        color: #BFB0BA;
+    }
+
+    table {
+        justify-content: center;
+    }
+
+    table.tabla {
+        margin-left: auto; 
+        margin-right: auto;
+}
+    th,
+    td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+
+    ::content {
+        text-align: center;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    legend {
+        text-align: center;
+    }
+
+    video, audio{
+        margin-left: 50vw;
+        transform: translate(-50%);
+    }
+    
+</style>
+</head>
+<body>
+    <div class="name">
+        <div class="imagen">
+            <img src="img/fotoPerfil.jpg" alt="Foto Personal">
+        </div>
+        <div class="title">
+            <h1>Isabela Sánchez Molano</h1>
+            <h2 style="color: #735362;">Estudiante de ingeniería multimedia</h2>
+        </div>
+    </div>
+
+    <div>
+        <blockquote>
+            <p> <strong style="color: #B5513A;">Descripción:</strong> Soy una persona una apasionada estudiante de ingeniería multimedia con sede en Cali, Colombia. Mi enfoque está en el diseño creativo y la <br>
+                innovación tecnológica. Con habilidades en Adobe Illustrator, SolidWorks, Adobe AfterEffects y Figma, me esfuerzo por crear experiencias visuales <br>
+                impactantes y funcionales. Soy una persona creativa y colaboradora, disfruto trabajando en equipo y enfrentando nuevos desafíos. <br></p> 
+        </blockquote>
+    </div>
+    
+    
+    <div>
+        <blockquote>
+            <p><strong style="color: #B5513A";>Hobbies: </strong>Me gusta el dibujo y la pintura, las manualidades, la práctica de deportes, bailar, escuchar música, comer, dormir, la cocina y la repostería. <br>
+                También me encanta sumergirme en el mundo de los videojuegos, disfrutar de películas y series, y explorar nuevos lugares a través de los viajes. <br><br></p>
+        </blockquote>
+    </div>
+    
+    <div>
+        <video style="padding-bottom: 2%;" width="400" controls>
+            <source src="video/cycling_-_39181 (540p).mp4" type="video/mp4" /> 
+            Your browser does not support HTML video.
+          </video>
+        
+    </div>
+
+    <div>
+        <audio style="padding-bottom: 2%;"controls>
+            <source src="video/080047_lose_funny_retro_video-game-80925.mp3" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+    </div>
+    
+
+        <form method="post" action="/">
+            <fieldset>
+                <legend><big><strong>Consultas</strong></big></legend> 
+                <p><strong style="color: #B5513A;"> Nombre: </strong><input style="color: #2E302B;" name="username" required /></p>
+                <p><strong style="color: #B5513A;">Email: </strong><input style="color: #2E302B;" type="email"></p>
+                
+                <textarea name="text" cols="32" rows="10" placeholder="Motivo de consulta..." style="width: 1300px; height: 122px; color: #2E302B;"></textarea>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset class="tabla1">
+                <legend><big><strong>Redes sociales</strong></big></legend> 
+                <table class="tabla">
+                    <tr>
+                        <th style="color: #B5513A;">Nombre</th>
+                        <th style="color: #B5513A;">URL</th>
+                    </tr>
+                    <tr>
+                        <td style="color: #BFB0BA;">Instagram</td>
+                        <td style="padding-left: 59px;"><a href="https://www.instagram.com/isa_sanchezz/"><img src="img/insta.png" alt="Perfil Instagram" style="width:60px;height:60px;"></a></td>
+                    </tr>
+                    <tr>
+                        <td style="color: #BFB0BA;">Facebook</td>
+                        <td style="justify-content: center;"><a href="https://www.facebook.com/isabela.sanchezmolano.1/?locale=es_LA"><img src="img/face.png" alt="Perfil Facebook" style="width:120px;height:68px;"></a></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
